@@ -1,4 +1,4 @@
-Source: liblops
+Source: lops
 Section: core
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
 Build-Depends: debhelper (>= 7), automake, libtool
