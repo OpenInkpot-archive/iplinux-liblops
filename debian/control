@@ -1,0 +1,24 @@
+Source: liblops
+Section: core
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 7), automake, libtool
+XCS-Cross-Host-Build-Depends: debhelper (>= 7), automake, libtool
+Priority: optional
+Standards-Version: 3.8.0
+
+Package: liblops0
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: lread/lwrite implementation
+ lread/lwrite are more robust read/write implementations
+
+Package: liblops-dev
+Section: libdevel
+Priority: optional
+Architecture: any
+Depends: liblops0 (= ${binary:Version})
+Description: lread/lwrite implementation -- development files.
+ lread/lwrite are more robust read/write implementations
+ .
+ This package contains development files required to link with the library.
