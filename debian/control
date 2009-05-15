@@ -13,7 +13,7 @@ Depends: ${shlibs:Depends}
 Description: lread/lwrite implementation
  lread/lwrite are more robust read/write implementations
 
-Package: liblops-dev
+Package: lops-dev
 Section: libdevel
 Priority: optional
 Architecture: any
