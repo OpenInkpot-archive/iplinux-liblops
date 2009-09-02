@@ -1,3 +1,12 @@
+liblops (0.2-1) asimov; urgency=low
+
+  * Adjust package names, .pc and headers to be compilant with coding
+    conventions.
+  * autogen.sh cleanups
+  * lread/lwrite renamed to readn/writen to match names from APUE book.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Thu, 03 Sep 2009 01:33:19 +0700
+
 lops (0.1-2) asimov; urgency=low
 
   * Added missing lops.pc
