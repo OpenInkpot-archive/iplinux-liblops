@@ -3,8 +3,8 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
-Name: lops
-Description: lread/lwrite implementation
+Name: liblops
+Description: readn/writen implementation
 Version: @PACKAGE_VERSION@
 Cflags: -I${includedir}
 Libs: -L${libdir} -llops

@@ -1,9 +1,9 @@
-#include "lops.h"
-
 #include <unistd.h>
 #include <errno.h>
 
-ssize_t lread(int fd, void* buf, size_t count)
+#include "liblops.h"
+
+ssize_t readn(int fd, void* buf, size_t count)
 {
     ssize_t i = 0;
     while(i < count)
@@ -21,7 +21,7 @@ ssize_t lread(int fd, void* buf, size_t count)
     return i;
 }
 
-ssize_t lwrite(int fd, const void* buf, size_t count)
+ssize_t writen(int fd, const void* buf, size_t count)
 {
     ssize_t i = 0;
     while(i < count)
@@ -36,3 +36,8 @@ ssize_t lwrite(int fd, const void* buf, size_t count)
     }
     return i;
 }
+
+ssize_t lread(int fd, void* buf, size_t count)
+    __attribute__((deprecated, alias("readn")));
+ssize_t lwrite(int fd, const void* buf, size_t count)
+    __attribute__((deprecated, alias("writen")));

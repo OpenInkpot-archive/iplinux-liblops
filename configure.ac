@@ -5,4 +5,4 @@ AM_INIT_AUTOMAKE(foreign)
 AC_PROG_CC
 AM_PROG_LIBTOOL
 
-AC_OUTPUT([Makefile src/Makefile lops.pc])
+AC_OUTPUT([Makefile src/Makefile liblops.pc])

@@ -1,6 +1,6 @@
 lib_LTLIBRARIES = liblops.la
-liblops_la_SOURCES = lops.c
-include_HEADERS = lops.h
+liblops_la_SOURCES = liblops.c
+include_HEADERS = liblops.h
 
 AM_CFLAGS = -Wall
 

@@ -7,7 +7,7 @@ config.sub
 configure
 depcomp
 .deps
-lops.pc
+liblops.pc
 install-sh
 *.la
 .libs

@@ -1,4 +1,4 @@
 SUBDIRS=src
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = lops.pc
+pkgconfig_DATA = liblops.pc

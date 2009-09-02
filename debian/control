@@ -1,4 +1,4 @@
-Source: lops
+Source: liblops
 Section: core
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
 Build-Depends: debhelper (>= 7), automake, libtool
@@ -13,11 +13,12 @@ Depends: ${shlibs:Depends}
 Description: lread/lwrite implementation
  lread/lwrite are more robust read/write implementations
 
-Package: lops-dev
+Package: liblops-dev
 Section: libdevel
 Priority: optional
 Architecture: any
 Depends: liblops0 (= ${binary:Version})
+Conflicts: lops-dev
 Description: lread/lwrite implementation -- development files.
  lread/lwrite are more robust read/write implementations
  .
