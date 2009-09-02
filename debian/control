@@ -4,7 +4,7 @@ Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
 Build-Depends: debhelper (>= 7), automake, libtool
 XCS-Cross-Host-Build-Depends: debhelper (>= 7), automake, libtool
 Priority: optional
-Standards-Version: 3.8.0
+Standards-Version: 3.8.3
 
 Package: liblops0
 Priority: optional
