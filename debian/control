@@ -10,8 +10,8 @@ Package: liblops0
 Priority: optional
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: lread/lwrite implementation
- lread/lwrite are more robust read/write implementations
+Description: readn/writen implementation
+ readn/writen are more robust read/write implementations
 
 Package: liblops-dev
 Section: libdevel
@@ -20,6 +20,6 @@ Architecture: any
 Depends: liblops0 (= ${binary:Version})
 Conflicts: lops-dev
 Description: lread/lwrite implementation -- development files.
- lread/lwrite are more robust read/write implementations
+ readn/writen are more robust read/write implementations
  .
  This package contains development files required to link with the library.
